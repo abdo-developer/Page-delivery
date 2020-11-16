@@ -17,7 +17,7 @@ header {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 12px;
+    padding: 25px;
 }
 
 header nav img {
@@ -77,6 +77,7 @@ header .text__description p {
     color: white;
     margin-top: 40px;
     line-height: 35px;
+    margin-bottom: 50px;
 }
 
 header .call-me button {
@@ -84,26 +85,30 @@ header .call-me button {
     background-color: transparent;
 }
 
-header .call-me button.custom_btn {
+header .call-me a {
+    text-decoration: none;
     background-color: violet;
-    padding: 14px;
+    padding: 10px;
     border-radius: 25px;
-    transition: all 0.5s ease;
+    color: black;
     font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.col-lg-6.col-md-12 {
     margin-top: 35px;
 }
 
-header .call-me button.custom_btn:hover,
-header .call-me button.custom_btn:active,
-header .call-me button.custom_btn:focus {
-    background-color: rgb(231, 65, 231);
-    color: black;
+header .call-me a:hover,
+header .call-me a:active,
+header .call-me a:focus {
+    background-color: blueviolet;
+    color: wheat;
 }
 
-header .call-me button.custom_btn svg {
-    color: green;
-    font-size: 20px;
-    margin-left: 8px;
+header .call-me a svg {
+    margin-left: 5px;
+    font-size: 22px;
 }
 
 .title_section h4 {
@@ -206,7 +211,8 @@ RESPONSIVE PAGE
 
     .title__section h4 {
         margin-top: 15px;
-        font-size: 18px;
+        font-size: 17px;
+        font-weight: 500;
     }
 
     .title_section h4 {
