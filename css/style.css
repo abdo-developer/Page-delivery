@@ -1,0 +1,252 @@
+
+@font-face {
+    src: url(../fonts/JF-Flat-regular.ttf);
+    font-family: ar-font;
+    font-size: 16px;
+}
+
+body {
+    direction: rtl;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: ar-font;
+}
+
+header {
+    background-image: url(../images/bg_header.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 12px;
+}
+
+header nav img {
+    height: 60px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: red;
+    transition: all 0.5s ease 0s;
+}
+
+header nav a:active,
+header nav a:hover,
+header nav a:focus {
+    color: red;
+}
+
+header nav button .svg-inline--fa {
+    font-size: 25px;
+    color: wheat;
+    margin-top: 5px;
+}
+
+header nav ul {
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 5px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease 0s;
+}
+
+header nav ul li a:hover,
+header nav ul li a:active,
+header nav ul li a:focus {
+    color: wheat;
+}
+
+header .image_header img {
+    height: 500px;
+}
+
+.title__section h4 {
+    margin-top: 90px;
+    color: wheat;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header .text__description p {
+    color: white;
+    margin-top: 40px;
+    line-height: 35px;
+}
+
+header .call-me button {
+    border: transparent;
+    background-color: transparent;
+}
+
+header .call-me button.custom_btn {
+    background-color: violet;
+    padding: 14px;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+header .call-me button.custom_btn:hover,
+header .call-me button.custom_btn:active,
+header .call-me button.custom_btn:focus {
+    background-color: rgb(231, 65, 231);
+    color: black;
+}
+
+header .call-me button.custom_btn svg {
+    color: green;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.title_section h4 {
+    margin: 35px 0;
+    font-weight: 600;
+    font-size: 24px;
+    color: blueviolet;
+}
+
+section.About__company .paragh_desciprtion p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 25px 0;
+    border: 5px inset rgb(97, 1, 97);
+    padding: 15px;
+    text-align: justify;
+}
+
+section.Feautred__company {
+    background-color: rgb(111, 17, 199);
+    padding: 20px;
+}
+
+.title_section h4.add-main {
+    color: wheat;
+}
+
+section.Feautred__company .image_icon img {
+    height: 95px;
+    margin: 30px 0;
+}
+
+section.Feautred__company .small_text p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+section.Contact__company .title__part h5 {
+    font-size: 22px;
+    margin: 30px 0;
+    font-weight: 600;
+}
+
+section.Contact__company p.number_phone {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section.Contact__company p.number_phone a {
+    text-decoration: none;
+    color: blueviolet;
+    transition: all 0.4s ease 0s;
+}
+
+section.Contact__company p.number_phone a:hover,
+section.Contact__company p.number_phone a:active,
+section.Contact__company p.number_phone a:focus {
+    color: rgb(100, 13, 182);
+}
+
+section.Contact__company p.number_phone  svg {
+    color: green;
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+section.Contact__company .map {
+    margin-bottom: 20px;
+}
+
+footer.latest__footer {
+    background-color: rgb(62, 9, 110);
+    margin-top: 8px;
+    padding: 12px;
+}
+
+footer.latest__footer #copyright {
+    color: wheat;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/************ 
+************
+***********************
+
+RESPONSIVE PAGE
+ 
+***************
+***********************
+*************************/
+
+
+@media (min-width: 320px) and  (max-width: 575.98px) {
+    header .image_header img {
+        height: 250px;
+    }
+
+    .title__section h4 {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    .title_section h4 {
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .title_section h4.add-main {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    section.Feautred__company .small_text p {
+        font-weight: normal;
+    }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .title__section h4 {
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .title__section h4 {
+        margin-top: 20px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    /*** Good Responsive ***/
+
+}
+
+@media (min-width: 1200px) { 
+
+    /**** Good Responsive ****/
+
+}
